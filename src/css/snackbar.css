@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 360px;
+  max-width: 100%;
+}
+
+.form > label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form fieldset {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 8px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+}
+
+.form legend {
+  padding: 0 4px;
+}
+
+.form fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.form input[type='radio'] {
+  margin: 0;
+  accent-color: var(--color-accent);
+  cursor: pointer;
+}
+
+.form button {
+  width: 100%;
+}
