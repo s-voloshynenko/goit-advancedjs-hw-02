@@ -1,0 +1,42 @@
+/* iziToast overrides (body prefix beats the library specificity) */
+body .iziToast {
+  padding: 20px 45px 20px 20px;
+  border-bottom: 2px solid transparent;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body .iziToast > .iziToast-body .iziToast-title {
+  margin-right: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+body .iziToast > .iziToast-body .iziToast-message {
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+body .iziToast.iziToast-color-green {
+  background: #59a10d;
+  border-color: #b5ea7c;
+}
+
+body .iziToast.iziToast-color-red {
+  background: #ef4040;
+  border-color: #ffbebe;
+}
+
+body .iziToast.iziToast-color-orange {
+  background: #ffa000;
+  border-color: #ffe0ac;
+}
+
+body .iziToast.iziToast-color-blue {
+  background: #0099ff;
+  border-color: #b8e3ff;
+}

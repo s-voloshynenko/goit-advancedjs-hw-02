@@ -1,0 +1,54 @@
+/* Inputs and buttons shared by both tasks */
+.input,
+.form input[type='number'] {
+  height: 40px;
+  padding: 8px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  font: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  background-color: #ffffff;
+  outline: none;
+  transition: border-color 250ms ease;
+}
+
+.input:hover,
+.form input[type='number']:hover {
+  border-color: var(--color-border-hover);
+}
+
+.input:focus,
+.form input[type='number']:focus {
+  border-color: var(--color-accent);
+}
+
+.input:disabled {
+  border-color: var(--color-border);
+  background-color: var(--color-input-disabled-bg);
+  cursor: not-allowed;
+}
+
+.button,
+.form button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font: inherit;
+  font-weight: 500;
+  letter-spacing: inherit;
+  color: #ffffff;
+  background-color: var(--color-accent);
+  transition: background-color 250ms ease;
+}
+
+.button:hover,
+.form button:hover {
+  background-color: var(--color-accent-hover);
+}
+
+.button:disabled {
+  color: var(--color-disabled-text);
+  background-color: var(--color-disabled-bg);
+  cursor: not-allowed;
+}
